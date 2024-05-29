@@ -1,0 +1,11 @@
+.footer-1{
+    background: linear-gradient(180deg, #2a212199 0%, #040402ab 100%), url('/images/spice.jpg') no-repeat center / cover;
+}
+
+.countUp-backround{
+    background: linear-gradient(rgb(52 46 46 / 97%), rgb(0 0 0 / 78%)), url('/images/spice55.jpg') no-repeat center / cover;
+}
+.homeform-backround{
+background: url('/images/homeform.jpg') no-repeat top / cover;    
+}
+
