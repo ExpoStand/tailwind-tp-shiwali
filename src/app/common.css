@@ -1,11 +1,99 @@
-.footer-1{
+.footer-1 {
     background: linear-gradient(180deg, #2a212199 0%, #040402ab 100%), url('/images/spice.jpg') no-repeat center / cover;
 }
 
-.countUp-backround{
+.countUp-backround {
     background: linear-gradient(rgb(52 46 46 / 97%), rgb(0 0 0 / 78%)), url('/images/spice55.jpg') no-repeat center / cover;
 }
-.homeform-backround{
-background: url('/images/homeform.jpg') no-repeat top / cover;    
+
+.homeform-backround {
+    background: url('/images/homeform.jpg') no-repeat top / cover;
 }
 
+.about-us-backround {
+    background: linear-gradient(180deg, #2a212199 0%, #040402ab 100%), url('/images/2.jpg') no-repeat center / cover;
+}
+
+.about-3-bacround {
+    background: url('/images/spice72.png') no-repeat top center / cover;
+
+}
+
+.element-box1 {
+    padding: 5% 10% 6% 10%;
+    border-style: solid;
+    border-width: 0px 3px 3px 3px ;
+    border-radius: 0px 100px 0px 100px;
+    margin: 0 10px;
+    height: 100%;
+    border-color: black;
+}
+
+.element-box2 {
+    padding: 5% 10% 10% 10%;
+    border-style: solid;
+    border-width: 0px 3px 3px 3px;
+    border-radius: 100px 0px 100px 0px;
+    height: 100%;
+    border-color: black;
+}
+
+.serviceBox {
+    text-align: center;
+    padding: 0 20px 60px;
+    margin: 5px 5px 0;
+    border-radius: 20px;
+    position: relative;
+    height: 312px;
+    width: 273px;
+}
+.serviceBox:before {
+    content: "";
+    background-color: #fff;
+    border-bottom: 30px solid #ff8f10;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+    bottom: 0;
+    z-index: -1;
+}
+.serviceBox .service-icon {
+    color: #ff8f10;
+    background-color: #ff8f10;
+    font-size: 35px;
+    text-align: center;
+    height: 74px;
+    width: 160px;
+    padding: 7px;
+    margin: 0 auto 30px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.serviceBox .title {
+    color: #ff8f10;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.serviceBox .description {
+    color: #999;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+}
+.serviceBox .service-icon span {
+    background-color: #fff;
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: inline-block;
+}
