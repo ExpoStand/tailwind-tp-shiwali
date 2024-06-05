@@ -5,14 +5,13 @@ import { LiaBusinessTimeSolid } from "react-icons/lia";
 import { RiCustomerService2Line } from "react-icons/ri";
 import { VscWorkspaceTrusted } from "react-icons/vsc";
 import { TfiWrite } from "react-icons/tfi";
+import '@/app/common.css'
 
 const AboutUs = () => {
     return (
         <>
             <div className='about-us-backround p-40'>
-
             </div>
-
 
             <div className="container">
                 <div className="relative">
@@ -89,7 +88,7 @@ const AboutUs = () => {
 
                     <div className="serviceBox">
                         <div className="service-icon">
-                            <span><LiaBusinessTimeSolid className='mt-[11px] ml-[12px]'/></span>
+                            <span><LiaBusinessTimeSolid className='mt-[11px] ml-[12px]' /></span>
                         </div>
                         <h3 className="title">Business Ethics & Responsibility</h3>
                         <p className="description">Uphold our code of conduct and moral principles, practice good governance, and encourage accountability and ethical decision-making.</p>
@@ -97,7 +96,7 @@ const AboutUs = () => {
 
                     <div className="serviceBox">
                         <div className="service-icon">
-                            <span><RiCustomerService2Line className='mt-[11px] ml-[12px]'/></span>
+                            <span><RiCustomerService2Line className='mt-[11px] ml-[12px]' /></span>
                         </div>
                         <h3 className="title">Customers receive value</h3>
                         <p className="description">We work hard to develop a customer experience that consistently fulfills our brand promise.</p>
@@ -105,7 +104,7 @@ const AboutUs = () => {
 
                     <div className="serviceBox">
                         <div className="service-icon">
-                            <span><VscWorkspaceTrusted className='mt-[11px] ml-[12px]'/></span>
+                            <span><VscWorkspaceTrusted className='mt-[11px] ml-[12px]' /></span>
                         </div>
                         <h3 className="title">Integrity</h3>
                         <p className="description">Without sacrificing the truth in relationships, act with integrity and honor.</p>
@@ -113,7 +112,7 @@ const AboutUs = () => {
 
                     <div className="serviceBox">
                         <div className="service-icon">
-                            <span><TfiWrite className='mt-[11px] ml-[12px]'/></span>
+                            <span><TfiWrite className='mt-[11px] ml-[12px]' /></span>
                         </div>
                         <h3 className="title">Responsibility & Accountability</h3>
                         <p className="description">Accept accountability for your experience, judgment, and policies.</p>
